@@ -1,23 +1,23 @@
 export const educationData = [
     {
         id: 1,
-        institution: 'Ramjas College, Delhi University',
-        course: 'B.A. Honours History',
-        startYear: '2015',
-        endYear: '2018'
+        institution: 'North Western University, Khulna, Bangladesh',
+        course: 'B.Sc in CSE',
+        startYear: 'January, 2017',
+        endYear: 'December, 2021'
     },
     {
         id: 2,
-        institution: 'Delhi University',
-        course: 'M.A. History',
-        startYear: '2019',
-        endYear: '2021'
+        institution: 'Bohubrihi',
+        course: 'Web Development',
+        startYear: 'September, 2020',
+        endYear: 'December, 2020'
     },
     {
         id: 3,
-        institution: 'Masai School of Coding',
-        course: 'Fullstack Web-Development',
-        startYear: '2021',
-        endYear: 'Present'
+        institution: 'Programming Hero',
+        course: 'Complete Web Development (MERN)',
+        startYear: 'January, 2022',
+        endYear: 'June, 2022'
     },
 ]

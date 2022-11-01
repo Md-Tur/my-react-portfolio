@@ -9,9 +9,11 @@ import { headerData } from '../../data/headerData';
 import { socialsData } from '../../data/socialsData';
 
 import {
-    FaTwitter,
-    FaLinkedin,
     FaGithub,
+    FaLinkedin,
+    FaTwitter,
+    FaFacebook,
+    FaInstagram
 } from 'react-icons/fa';
 
 function Landing() {
@@ -73,19 +75,6 @@ function Landing() {
                     style={{ backgroundColor: theme.primary }}
                 >
                     <div className='lcl--content'>
-                        {socialsData.linkedIn && (
-                            <a
-                                href={socialsData.linkedIn}
-                                target='_blank'
-                                rel='noreferrer'
-                            >
-                                <FaLinkedin
-                                    className='landing--social'
-                                    style={{ color: theme.secondary }}
-                                    aria-label='LinkedIn'
-                                />
-                            </a>
-                        )}
                         {socialsData.github && (
                             <a
                                 href={socialsData.github}
@@ -99,7 +88,20 @@ function Landing() {
                                 />
                             </a>
                         )}
-                        {/* {socialsData.twitter && (
+                        {socialsData.linkedIn && (
+                            <a
+                                href={socialsData.linkedIn}
+                                target='_blank'
+                                rel='noreferrer'
+                            >
+                                <FaLinkedin
+                                    className='landing--social'
+                                    style={{ color: theme.secondary }}
+                                    aria-label='LinkedIn'
+                                />
+                            </a>
+                        )}
+                        {socialsData.twitter && (
                             <a
                                 href={socialsData.twitter}
                                 target='_blank'
@@ -112,32 +114,33 @@ function Landing() {
                                 />
                             </a>
                         )}
-                        {socialsData.youtube && (
+                        {socialsData.facebook && (
                             <a
-                                href={socialsData.youtube}
+                                href={socialsData.facebook}
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <FaYoutube
+                                <FaFacebook
                                     className='landing--social'
                                     style={{ color: theme.secondary }}
-                                    aria-label='YouTube'
+                                    aria-label='Facebook'
                                 />
                             </a>
                         )}
-                        {socialsData.blogger && (
+                        {socialsData.instagram && (
                             <a
-                                href={socialsData.blogger}
+                                href={socialsData.instagram}
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <FaBlogger
+                                <FaInstagram
                                     className='landing--social'
                                     style={{ color: theme.secondary }}
-                                    aria-label='Blogger'
+                                    aria-label='Instagram'
                                 />
                             </a>
-                        )} */}
+                        )}
+
                     </div>
                 </div>
                 <img

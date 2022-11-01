@@ -5,10 +5,9 @@ export const skillsData = [
     'Tailwind',
     'Javascript',
     'React',
-    'Node',
-    'Express',
+    'Node JS',
     'MongoDB',
-    'Github',
+    'GitHub',
     'Firebase',
     'Figma'
 ]
