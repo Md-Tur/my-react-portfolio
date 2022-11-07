@@ -1,6 +1,6 @@
 export const aboutData = {
     title: "Who I am",
-    description1: "Hello! My name is Sreerag Rajan. I'm an aspiring web developer based in India.",
-    description2: "I am a student at Masai School, currently learning Fullstack Web-Development. A project that I worked on towards the end of my Master’s in History set me on this path of a web developer. The project involved looking at movies on historical themes that could be considered as an educational tool. The website was not the focus of the project, but working on it was such a thrilling experience that a career in this felt like a right fit. Other than this I am a bibliophile, who not just loves reading books but also buying and maintaining a personal library.",
+    description1: "Greetings! Myself Md. Tur-Ibna Mostafiz. I'm a Full Stack(MERN) web developer based in Bangladesh.",
+    description2: "I have just completed my B.Sc in CSE from North Western University, Khulna, Bangladesh. Am a complete web developer. I have knowledge & experience on JavaScript,ES6,React,HTML5, CSS3, Bootstrap 5, Tailwind CSS, daisyUI,ES6,JWT,google firebase, GitHub, Figma, Netlify. Am also familiar with typescript, node.js, express.js, mongoDB, chrome devtools. Now am ready to work individually or as a team member in a company. I have recently completed a course on full stack web development at Programming Hero. I have also developed some web sites and now i am confident about web development. I enjoy web development and am dedicated and punctual about it. I think i would be efficient for a company if i got a chance to work there.",
     image: 2
 }

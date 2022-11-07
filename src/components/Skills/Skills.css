@@ -10,7 +10,7 @@
 .skillsHeader {
     display: flex;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
 }
 
 .skillsHeader h2 {
@@ -24,7 +24,7 @@
 .skillsContainer {
     display: flex;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
     width: 100%;
     margin-top: 3.5rem;
     padding: 0 2rem;
@@ -51,12 +51,12 @@
     transition: 300ms ease-in-out;
 }
 
-.skill--box:hover  {
+.skill--box:hover {
     transform: scale(1.15);
 }
 
 
-.skill--box > img {
+.skill--box>img {
     height: 50px;
     pointer-events: none;
 }
@@ -81,6 +81,7 @@
     .skills {
         padding: 2rem 1rem 1rem 1rem;
     }
+
     .skillsContainer {
         padding: 1.5rem;
         margin-top: 1.5rem;
@@ -93,13 +94,16 @@
         padding: 1rem;
         min-height: 100%;
     }
+
     .skillsContainer {
         padding: 1rem;
         margin: 1rem 0;
     }
+
     .skillsHeader h2 {
         font-size: 3.2rem;
     }
+
     .skill--box {
         width: 150px;
         height: 150px;
@@ -107,7 +111,7 @@
         padding: 2rem 1rem;
     }
 
-    .skill--box > img {
+    .skill--box>img {
         height: 45px;
     }
 
@@ -123,9 +127,11 @@
     .skills {
         padding: 0.5rem;
     }
+
     .skillsContainer {
         padding: 0.5rem;
     }
+
     .skillsHeader h2 {
         font-size: 3rem;
     }
@@ -144,7 +150,7 @@
         padding: 2rem 1rem;
     }
 
-    .skill--box > img {
+    .skill--box>img {
         height: 40px;
     }
 
@@ -158,16 +164,8 @@
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 400px) {}
 
-}
-  
-@media only screen and (min-device-width: 320px) and (max-device-width: 
-  480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {}
 
-}
-
-
-@media only screen and (device-width: 768px) {
-
-}
+@media only screen and (device-width: 768px) {}

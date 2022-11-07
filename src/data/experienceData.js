@@ -1,10 +1,10 @@
 export const experienceData = [
     {
         id: 1,
-        company: 'Globex Corporation',
-        jobtitle: 'Frontend Developer',
-        startYear: '2018',
-        endYear: '2019'
+        company: 'Non Academy',
+        jobtitle: 'React.JS Developer',
+        startYear: 'October, 2022',
+        endYear: 'Present'
     },
-    
+
 ]

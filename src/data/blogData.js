@@ -22,24 +22,6 @@ export const blogData = [
         date: 'Feb 27, 2022',
         image: 'https://miro.medium.com/max/875/1*qRNfRbuHCDC1ct0chLZoWA.png',
         url: 'https://medium.com/@sreerag.rajan5/reliance-digital-clone-part-ii-57797eaf1ddf'
-    },
-    
+    }
+
 ]
-
-
-
-
-// Do not remove any fields.
-// Leave it blank instead as shown below.
-
-
-/* 
-{
-    id: 1,
-    title: 'Car Pooling System',
-    description: '',
-    date: 'Oct 1, 2020',
-    image: '',
-    url: 'https://preview.colorlib.com/theme/rezume/'
-}, 
-*/

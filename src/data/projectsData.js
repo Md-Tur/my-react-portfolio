@@ -1,29 +1,33 @@
+import project1 from '../assets/projects/bike-buddies.PNG';
+import project2 from '../assets/projects/mega-grocery.PNG';
+import project3 from '../assets/projects/dental-solution.PNG';
+
 export const projectsData = [
     {
         id: 1,
         projectName: 'Bike Buddies',
-        projectDesc: 'This project seeks to explore whether the pedagogy of history can be improved with the visual media, particularly Cinema. The Website is intended to show movies that fit the bill. I have a fullstack role in this having built all of it.',
-        tags: ['Django', 'HTML', 'CSS', 'Javascript'],
+        projectDesc: 'A manufacture website that contains functionalities like: Admin Dashboard where an admin can see order history, payment history, all users, manage products, stock products, make new admin, etc. Users can order products but it’s required to order a minimum range of products here, able to see their own order history, update profile, and log in/sign up here.Online payment system for users (implementing).',
+        tags: ['React.JS', 'Tailwind CSS', 'Node.JS', 'Express.JS', 'MongoDB', 'Firebase'],
         code: 'https://github.com/Md-Tur/bike-buddies-client',
         demo: 'https://bike-buddies-4cd22.web.app/',
-        image: "https://github.com/sreerag-rajan/historythroughmovies/raw/master/htclandingpage.png"
+        image: project1
     },
     {
         id: 2,
         projectName: 'Mega Grocery',
-        projectDesc: 'This is a clone of an e-commerce website sportsjam.in. My contribution to this project was the product catalogue page and its features, like sorting and filtering. The rest of the project was built by various members of the group',
-        tags: ['HTML', 'CSS', 'Javascript'],
+        projectDesc: 'A grocery dealer website that contains functionalities like: A grocery dealer can log in/sign up here, update or restock any product, able to see available products. Able to add new products and after adding a new product it will be shown on the homepage. If any products are stocked out, then the dealer can delete that product from the site.',
+        tags: ['React.JS', 'Bootstrap', 'Node.JS', 'Express.JS', 'MongoDB', 'Firebase'],
         code: 'https://github.com/Md-Tur/mega-grocery-client',
         demo: 'https://mega-grocery-bb035.web.app/',
-        image: "https://camo.githubusercontent.com/f9fbe30b577cff2fbf09af53fb3c1f12fcc10a771bf9459ed5af10bffab9e38b/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f3837352f312a525f5f63646e384c316759474b3154647171797562672e706e67"
+        image: project2
     },
     {
         id: 3,
         projectName: 'Dental Solution',
-        projectDesc: 'This project is the clone of Educative.io. Built as part of Project week, my contributions include the home page(both with user and without user), course information page and checkout page. The rest of the pages and features were built by other members of my team',
-        tags: ['React', 'Material UI', 'Express', "MongoDB", "NodeJS"],
+        projectDesc: 'A single person based website that contains functionalities like: Users can log in/sign up here easily using mail & password or by a social login system. A user is able to make an appointment for his/her treatment from a specialist and confirm the appointment by checking out with the required information. Users are able to see all services as well as service details including service price but it’s required to be logged in here for making an appointment.',
+        tags: ['React.JS', 'Bootstrap'],
         code: 'https://github.com/Md-Tur/dental-solution',
         demo: 'https://dental-solution-6f8eb.web.app/',
-        image: "https://user-images.githubusercontent.com/85482640/161571651-35ab8e4e-dc57-4834-bafc-9485766f5b8a.png"
+        image: project3
     }
 ]
